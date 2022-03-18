@@ -17,7 +17,6 @@ function Nav(props) {
           <h2>
             <a data-testid="link" href="/">
               <span role="img" aria-label="camera">
-                {" "}
                 📸
               </span>{" "}
               Oh Snap!
@@ -26,7 +25,7 @@ function Nav(props) {
           <nav>
             <ul className="flex-row">
               <li className="mx-2">
-                <a
+                <a data-testid="about"
                   href="#about"
                 >
                   About me
